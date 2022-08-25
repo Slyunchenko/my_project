@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My project</title>
 </head>
 <body>
@@ -21,20 +22,26 @@
                 z:
                 <input type="text" name="z" placeholder="z value">
             </div>
-            <div class="from-field">
+            <label class="from-field">
                 Username:
                 <input type="text" name="username">
-            </div>
-            <div class="from-field">
+            </label>
+            <label class="from-field">
                 Password:
                 <input type="password" name="password">
-            </div>
+            </label>
             <div class="from-field">
+                <input type="checkbox" name="terms" id="terms-and-conditions">
+                <label for="terms-and-conditions">
+                    I agree terms and conditions
+                </label>
+            </div>
+            <label class="from-field">
                 <input type="checkbox" name="remember" value="123" checked>
                 Remember me
-            </div>
+            </label>
         </form>
-        <button>Search</button>
+        <button>Sign up</button>
     </form>
 </body>
 </html>
